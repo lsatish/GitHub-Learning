@@ -9,3 +9,8 @@
 4. To commit the changes git commit -m “<comments>”
 	-m is to add the comments, which will be helpful in refering back to check what exactly these new files or modified files do
 5. By modifiing an exising commited file, we can add and commit at the same time git commit -am “<comments>”
+6. To add multiple modified files at a time: git add .
+7. To remove the changes after adding to the staging git reset HEAD <filename>
+8. To remove the chages made in a file from Working Directory/ Project Directory git checkout -- <filename>
+9. To remove a file after commit git rm <filename>
+
